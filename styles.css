@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.logoimage{
+    width: 70px;
+    padding-top: 10px;
+}
+.nav{
+    justify-content: space-around;
+}
+.navbar nav,nav-underline,li,a{
+    justify-content: space-around;
+    width: 300px;
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.nav{
+    background-color: orange;
+}
