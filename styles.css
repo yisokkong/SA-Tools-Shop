@@ -7,15 +7,29 @@
     padding-top: 10px;
 }
 .nav{
+    width: 100%;
     justify-content: space-around;
+    background-image: url(https://www.solidbackgrounds.com/images/3840x2160/3840x2160-amber-orange-solid-color-background.jpg);
 }
 .navbar nav,nav-underline,li,a{
     justify-content: space-around;
-    width: 300px;
+    width: 170px;
     text-align: center;
     font-size: 20px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-.nav{
-    background-color: orange;
+.search{
+    display: flex;
+    justify-content: center;
+  
 }
+.d-flex{
+    width: 700px;
+    margin: 10px 10px 10px 10px;
+    background-color: rgb(231, 231, 231);
+}
+.container-fluid{
+    background-color: rgb(231, 231, 231);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+
