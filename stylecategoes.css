@@ -1,0 +1,191 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.logoimage{
+    width: 70px;
+    padding-top: 10px;
+}
+.nav{
+    width: 100%;
+    justify-content: space-around;
+    background-image: url(https://www.solidbackgrounds.com/images/3840x2160/3840x2160-amber-orange-solid-color-background.jpg);
+}
+.navbar nav,nav-underline,li,a{
+    justify-content: space-around;
+    width: 170px;
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.search{
+    display: flex;
+    justify-content: center;
+  
+}
+.d-flex{
+    width: 700px;
+    margin: 10px 10px 10px 10px;
+    background-color: rgb(231, 231, 231);
+}
+.container-fluid{
+    background-color: rgb(231, 231, 231);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+.navcategories ul li a{
+    width: 200px;
+    border-radius: 1px;
+    color: white;
+}
+.navcategories{
+    padding: 20px;
+    margin: auto;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.navcategories .nav,nav-pills,nav-fill{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+.navcategories .navcategoriescard .card-group {
+    gap: 10px;
+}
+.navcategories .navcategoriescard .card-group .card{
+    margin-top: 10px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    border-radius: 5px;
+}
+.navcategories .navcategoriescard .card-group img{
+    width: 200px;
+    margin: auto;
+}
+.spanner{
+    padding-top: 20px;
+}
+.navcategories .navcategoriescard .card-group .card-body h5{
+    text-align: center;
+    font-size: 15px;
+}
+.navcategories .navcategoriescard .card-group .card-body p{
+    text-align: center;
+    font-size: 20px;
+}
+.card-title1{
+    padding-top:45px;
+}
+.footer{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    line-height: 50px;
+    background-image: url(https://www.solidbackgrounds.com/images/3840x2160/3840x2160-amber-orange-solid-color-background.jpg);
+    padding-top: 20px;
+    margin-top: 10px;
+}
+.footer ul img{
+    width: 70px;
+    margin-left: 50px;
+}
+.footer ul h3,li{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.information{
+    font-size: 12px;
+}
+@media (max-width:768px){
+    .logoimage{
+        width: 50px;
+        padding-top: 15px;
+    }
+    .navbar nav,nav-underline,li,a{
+        width: 150px;
+    }
+    .navcategories .navcategoriescard .card-group{
+        width: 700px;
+        margin-left: 15px;
+    }
+    .navcategories .navcategoriescard .card-group img{
+        width: 100px;
+    }
+    .navcategories .nav-item{
+        width: 70px;
+        padding: 10px 10px 10px 10px;
+    }
+    .footer ul h3,li{
+        font-size: 15px;
+    }
+    .information{
+        font-size: 10px;
+    }
+    .footer ul h3{
+        padding-left: 40px;
+    }
+}
+@media (max-width:320px){
+    .logoimage{
+        width: 50px;
+    }
+    .navbar nav,nav-underline,li,a{
+        width: 90px;
+    }
+    .nav .navbar{
+        width: 90%;
+    }
+    .nav{
+        width: 720px;
+    }
+    .search{
+    margin-left: 5px;
+    }
+    .d-flex{
+        width: 90%;
+    }
+    .container-fluid{
+        width: 680px;
+    }
+    .slideshow{
+        width: 700px;
+    }
+    .navcategories .nav,nav-pills,nav-fill{
+        width: 630px;
+        margin-left: 10px;
+    }
+    .navcategories .navcategoriescard .card-group{
+        width: 600px;
+        display: flex;
+        margin-left: 25px;
+    }
+    .navcategories .navcategoriescard .card-group img{
+        width: 80px;
+    }
+    .navcategories .navcategoriescard .card-group .card :nth-child(1){
+        width: 100px;
+    }
+    .navcategories .navcategoriescard .card-group .card-body h5{
+        padding-right: 20px;
+        font-size:10px;
+    }
+    .navcategories .navcategoriescard .card-group .card-body p{
+        font-size: 15px;
+    }
+    .footer{
+        width: 630px;
+        line-height: 20px;
+        margin-left: 15px;
+    }
+    .footer ul h3{
+        padding-right: 90px;
+        font-size: 10px;
+    }
+    .footer ul img{
+        width: 50px;
+        padding-right: 10px;
+
+    }
+    .footer ul li{
+        font-size: 8px;
+    }
+    .information{
+        font-size: 6px;
+    }
+}
+   

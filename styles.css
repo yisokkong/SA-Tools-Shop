@@ -32,4 +32,335 @@
     background-color: rgb(231, 231, 231);
     box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
 }
+.col-12{
+    background-color: rgb(247, 247, 45);
+    margin-top: 10px;
+    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+    border-radius: 5px;
+}
+.popularcategoies .populartext h1{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 10px 0px 10px 0px;
+    color: rgb(95, 95, 95);
+}
+.popularcategoies .populartext {
+    background-image: url(https://www.solidbackgrounds.com/images/3840x2160/3840x2160-amber-orange-solid-color-background.jpg);
+    margin-top: 10px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    margin: 20px 0px 20px 0px;
+}
+.popularcategoies .popularcard .card-group .card img{
+    width: 350px;
+    align-self: center;
+}
+.popularcategoies .popularcard .card-group .card .card-body h5 {
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.popularcategoies .popularcard .card-group .card .card-body p{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.popularcategoies .popularcard .card-group .card:nth-child(2) .card-body h5 {
+    margin-top: 90px;
+    padding-top: 30px;
+}
+.popularcategoies .popularcard .card-group .card:nth-child(1) .card-body h5 {
+    margin-top: 40px;
+}
+.popularcategoies .popularcard .card-group .card:nth-child(2) img{
+    margin-top: 50px;
+}
+.bestseller .bestsellertext h1{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 10px 0px 10px 0px;
+    color: rgb(95, 95, 95);
+}
+.bestseller .bestsellertext{
+    background-image: url(https://www.solidbackgrounds.com/images/3840x2160/3840x2160-amber-orange-solid-color-background.jpg);
+    margin-top: 10px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    margin: 20px 0px 20px 0px;
+}
+.tool3{
+    width: 300px;
+    align-self: center;
+}
+.tool4{
+    width: 340px;
+    align-self: center;
+}
+.tool5{
+    width: 360px;
+    align-self: center;
+}
+.tool6{
+    width: 440px;
+    align-self: center;
+}
+.bestseller .bestsellercard .card-body h5{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.bestseller .bestsellercard .card-body p{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+}
+.newproduct .newproducttext h1{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 10px 0px 10px 0px;
+    color: rgb(95, 95, 95);
+}
+.newproduct .newproducttext{
+    background-image: url(https://www.solidbackgrounds.com/images/3840x2160/3840x2160-amber-orange-solid-color-background.jpg);
+    margin-top: 10px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    margin: 20px 0px 20px 0px;
+}
+.newproduct .newproductcard{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+.newproduct .newproductcard h5{
+    font-size: 15px;
+}
+.newproduct .newproductcard p{
+    font-size: 20px;
+}
+.video .videotext h1{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 10px 0px 10px 0px;
+    color: rgb(95, 95, 95);
+}
+.video .videotext{
+    background-image: url(https://www.solidbackgrounds.com/images/3840x2160/3840x2160-amber-orange-solid-color-background.jpg);
+    margin-top: 10px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    margin: 20px 0px 20px 0px;
+}
+.videoplay{
+    margin: auto;
+    width: 90%;
+    padding: 30px;
+    margin-top: 60px;
+    justify-content: center;
+}
+video{
+    width: 100%;
+}
+.ourperspective{
+    width: 90%;
+    display: flex;
+    margin: auto;
+    margin-bottom: 30px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px, rgb(51, 51, 51) 0px 0px 0px 3px;
 
+}
+.ourperspectivepic{
+    width: 200px;
+}
+.ourperspective p{
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 10px 10px 10px 10px;
+}
+.footer{
+    width: 98%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    line-height: 50px;
+    background-image: url(https://www.solidbackgrounds.com/images/3840x2160/3840x2160-amber-orange-solid-color-background.jpg);
+    padding-top: 20px;
+    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+}
+.footer ul img{
+    width: 70px;
+    margin-left: 50px;
+}
+.footer ul h3,li{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.information{
+    font-size: 12px;
+}
+@media (max-width:768px) {
+    .logoimage{
+        width: 50px;
+        padding-top: 15px;
+    }
+    .navbar nav,nav-underline,li,a{
+        width: 150px;
+    }
+    .popularcategoies .popularcard .card-group .card img{
+        width: 250px;
+        padding-top: 20px;
+    }
+    .popularcategoies .popularcard .card-group .card:nth-child(1) .card-body h5{
+        margin-top: 70px;
+    }
+    .popularcategoies .popularcard .card-group .card:nth-child(3) .card-body h5{
+        margin-top: 30px;
+    }
+    .tool3{
+        width: 200px;
+    }
+    .tool4{
+        width: 200px;
+    }
+    .tool5{
+        width: 200px;
+    }
+    .tool6{
+        width: 200px;
+        padding-top: 10px;
+    }
+    .newproduct .newproductcard .card-body h5{
+        text-align: center;
+    }
+    .newproduct .newproductcard .card-body p{
+        text-align: center;
+    }
+    .footer ul img{
+        width: 50px;
+    }
+    .footer{
+        line-height: 30px;
+    }
+    .footer ul h3,li{
+        font-size: 15px;
+    }
+    .information{
+        font-size: 10px;
+    }
+    .footer ul h3{
+        padding-left: 40px;
+    }
+}
+@media (max-width:320px) {
+
+    .logoimage{
+        width: 50px;
+    }
+    .navbar nav,nav-underline,li,a{
+        width: 90px;
+    }
+    .nav .navbar{
+        width: 90%;
+    }
+    .nav{
+        width: 700px;
+    }
+    .search{
+        width: 700px;
+        padding-right: 10px;
+    }
+    .d-flex{
+        width: 90%;
+    }
+    .container-fluid{
+        width: 600px;
+    }
+    .slideshow{
+        width: 680px;
+    }
+    .popularcategoies .populartext{
+        width: 700px;
+    }
+    .popularcategoies .popularcard .card-group .card img{
+        width: 100px;
+    }
+    .popularcategoies .popularcard .card-group .card .card-body h5,p{
+        font-size: 10px;
+    }
+    .popularcategoies .popularcard .card-group{
+        width: 680px;
+        display: flex;
+    }
+    .popularcategoies .popularcard .card-group .card:nth-child(2) .card-body h5{
+        margin-top: 20px;
+    }
+    .popularcategoies .popularcard .card-group .card:nth-child(2) img{
+        padding-top: 5px;
+    }
+    .popularcategoies .popularcard .card-group .card:nth-child(1) .card-body h5{
+        margin-top: 50px;
+    }
+    .popularcategoies .popularcard .card-group .card:nth-child(2){
+        width: 390px;
+    }
+    .bestseller .bestsellertext{
+        width: 700px;
+    }
+    .tool1,.tool2,.tool3,.tool4,.tool5,.tool6{
+        width: 200px;
+    }
+    .tool1{
+        width: 200px;
+        margin: auto;
+    }
+    .tool2{
+        width: 200px;
+        margin: auto;
+    }
+    .bestseller .bestsellercard .card-body h5{
+        font-size: 20px;
+    }
+    .bestseller .bestsellercard .card-body p{
+        font-size: 25px;
+    }
+    .bestseller .bestsellercard {
+        width: 600px;
+        margin-left: 30px;
+    }
+    .bestseller {
+        width: 600px;
+    }
+    .newproduct .newproducttext{
+        width: 700px;
+    }
+    .newproduct .newproductcard .card-body h5{
+        font-size: 20px;
+        text-align: center;
+    }
+    .newproduct .newproductcard .card-body p{
+        font-size: 25px;
+        text-align: center;
+    }
+    .newproduct .newproductcard{
+        width: 600px;
+        margin-left: 30px;
+    }
+    .newproduct .newproductcard .card img{
+        width: 250px;
+        margin: auto;
+    }
+    .video .videotext{
+        width: 700px;
+    }
+    video{
+        width: 590px
+    }
+    .ourperspective{
+        width: 600px;
+        margin-left: 40px;
+    }
+    .footer{
+        width: 700px;
+    }
+    .footer ul h3{
+        padding-right: 90px;
+        font-size: 10px;
+    }
+    .footer ul li{
+        font-size: 8px;
+    }
+    .information{
+        font-size: 6px;
+    }
+}
