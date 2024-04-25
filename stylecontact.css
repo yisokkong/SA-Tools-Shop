@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.logoimage{
+    width: 70px;
+    padding-top: 10px;
+}
+.nav{
+    width: 100%;
+    justify-content: space-around;
+    background-image: url(https://www.solidbackgrounds.com/images/3840x2160/3840x2160-amber-orange-solid-color-background.jpg);
+}
+.navbar nav,nav-underline,li,a{
+    justify-content: space-around;
+    width: 170px;
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.search{
+    display: flex;
+    justify-content: center;
+  
+}
+.d-flex{
+    width: 700px;
+    margin: 10px 10px 10px 10px;
+    background-color: rgb(231, 231, 231);
+}
+.container-fluid{
+    background-color: rgb(231, 231, 231);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+.contact{
+    width: 90%;
+    display: flex;
+    margin: 20px 0px 20px 80px;
+    background-image: url(https://png.pngtree.com/thumb_back/fw800/background/20231013/pngtree-wooden-background-enhances-the-presentation-of-a-diverse-tool-set-image_13641753.png);
+}
+.col-9{
+    width: 700px;
+}
+.col-9 h1{
+    font-size: 30px;
+    line-height: 50px;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:black;
+    text-shadow: orange 1px 0 20px;
+    
+}
+.col-3{
+    padding: 10px 10px 10px 10px;
+}
+.footer ul img{
+    width: 70px;
+    margin-left: 50px;
+}
+.footer ul h3,li{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.information{
+    font-size: 12px;
+}
+@media (max-width:768px){
+    .logoimage{
+        width: 50px;
+        padding-top: 15px;
+    }
+    .navbar nav,nav-underline,li,a{
+        width: 150px;
+    }
+    .contact .col-9{
+        width: 400px;
+        padding: 20px 0px 0px 20px;
+    }
+    .contact .col-9 h1{
+        font-size: 20px;
+        width: 300px;
+        line-height: 30px;
+    }
+    .col-3 iframe{
+        width: 250px;
+        padding-right: 90px;
+        height: 300px;
+    }
+    .contact{
+        width: 600px;
+    }
+    .footer{
+        line-height: 30px;
+    }
+    .footer ul h3,li{
+        font-size: 15px;
+    }
+    .information{
+        font-size: 10px;
+    }
+    .footer ul h3{
+        padding-left: 40px;
+    }
+}
+@media (max-width:320px){
+    .logoimage{
+        width: 50px;
+    }
+    .navbar nav,nav-underline,li,a{
+        width: 90px;
+    }
+    .nav .navbar{
+        width: 90%;
+    }
+    .nav{
+        width: 700px;
+    }
+    .search{
+        width: 700px;
+        padding-right: 10px;
+    }
+    .d-flex{
+        width: 90%;
+    }
+    .container-fluid{
+        width: 600px;
+    }
+    .contact{
+        margin-left: 50px
+    }
+    .footer ul h3{
+        padding-right: 90px;
+        font-size: 10px;
+    }
+    .footer ul li{
+        font-size: 8px;
+    }
+    .information{
+        font-size: 6px;
+    }
+}
