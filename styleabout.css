@@ -8,16 +8,58 @@
 }
 .nav{
     width: 100%;
-    justify-content: space-around;
     background-image: url(https://www.solidbackgrounds.com/images/3840x2160/3840x2160-amber-orange-solid-color-background.jpg);
-}
-.navbar nav,nav-underline,li,a{
     justify-content: space-around;
-    width: 170px;
+}
+.navbar ul li,a,.dropdown{
+    justify-content: space-around;
+    width: 300px;
     text-align: center;
     font-size: 20px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-left: 80px;
 }
+.navbar li,a{
+    justify-content: space-around;
+}
+ .dropbtn {
+    background-color: rgb(255, 255, 0);
+    color: white;
+    padding: 12px;
+    font-size: 16px;
+    border: none;
+    border-radius: 10px;
+    width: 200px;
+    color: black;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  
+  .dropdown-content a:hover {background-color: rgb(255, 255, 0);}
+  
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  .dropdown:hover .dropbtn {background-color: rgb(255, 255, 0);}
 .search{
     display: flex;
     justify-content: center;
@@ -101,11 +143,33 @@
 }
 @media (max-width:768px){
     .logoimage{
-        width: 50px;
-        padding-top: 15px;
+        width: 40px;
+        padding-top: 20px;
     }
-    .navbar nav,nav-underline,li,a{
+    .navbar{
+        width: 90%;
+    }
+    .navbar ul li {
+        width: 170px;
+        font-size: 9px;
+        padding-left: 15px;
+        padding: 12px 0px 10px 15px;
+    }
+    .dropbtn{
         width: 150px;
+        font-size: 10px;
+        height: 30px;
+        border-radius: 5px;
+        padding-top: 9px;
+    }
+    .dropdown{
+        width: 150px;
+        padding-left: 7px;
+        padding: 10px 0px 10px 7px;
+    }
+    .dropdown-content a{
+        width: 150px;
+        font-size: 10px;
     }
     .about .abouttext p{
         font-size: 15px;
@@ -135,16 +199,32 @@
 }
 @media (max-width:320px){
     .logoimage{
-        width: 50px;
+        width: 30px;
     }
-    .navbar nav,nav-underline,li,a{
-        width: 90px;
-    }
-    .nav .navbar{
-        width: 90%;
+    .navbar{
+        width: 89%;
     }
     .nav{
         width: 700px;
+    }
+    .navbar ul li,.dropdown{
+        width: 50px;
+        font-size: 10px;
+        margin-right: 40px;
+    }
+    .dropbtn{
+        width: 100px;
+        height: 30px;
+        font-size: 10px;
+        border-radius: 5px;
+    }
+    .dropdown{
+        width: 80px;
+        padding-top: 12px;
+    }
+    .dropdown-content a{
+        width: 100px;
+        font-size: 8px;
     }
     .search{
         width: 700px;
