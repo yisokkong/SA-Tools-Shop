@@ -359,7 +359,7 @@ video{
         font-size: 10px;
     }
     .popularcategoies .popularcard .card-group{
-        width: 680px;
+        width: 689px;
         display: flex;
     }
     .popularcategoies .popularcard .card-group .card:nth-child(2) .card-body h5{
@@ -396,7 +396,7 @@ video{
     }
     .bestseller .bestsellercard {
         width: 600px;
-        margin-left: 30px;
+        margin-left: 45px;
     }
     .bestseller {
         width: 600px;
@@ -414,7 +414,7 @@ video{
     }
     .newproduct .newproductcard{
         width: 600px;
-        margin-left: 30px;
+        margin-left: 45px;
     }
     .newproduct .newproductcard .card img{
         width: 250px;
