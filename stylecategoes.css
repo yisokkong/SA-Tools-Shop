@@ -180,7 +180,7 @@
         padding-left: 40px;
     }
 }
-@media (max-width:320px){
+@media (max-width:600px){
     .logoimage{
         width: 30px;
     }
